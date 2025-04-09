@@ -32,6 +32,19 @@ Este projeto aplica um pipeline completo de regressão logística para prever a 
 
 ## 🔗 Fonte dos Dados
 - Dataset original disponível em: [UCI Repository - Bank Marketing Data Set](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+## 📊 Visualizações
+
+### 🎯 Distribuição da Variável Resposta
+![Distribuição de Adesões](outputs/distribuicao_resposta_simulada.png)
+*Frequência de clientes que aderiram (1) e não aderiram (0) à campanha*
+
+### 📈 Curva ROC
+![Curva ROC](outputs/curva_ROC_simulada.png)
+*A Curva ROC mostra o desempenho do classificador para diferentes thresholds. AUC ≈ 0.83 (simulado)*
+
+### 📈 Curva de Lift
+![Curva de Lift](outputs/lift_curve_simulada.png)
+*O gráfico de Lift ilustra o ganho sobre o modelo aleatório ao priorizar contatos com maior escore*
 
 ---
 👤 **Autor:** Glaucio Jorge Ferreira Rosa  
