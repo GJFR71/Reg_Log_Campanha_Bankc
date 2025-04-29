@@ -1,7 +1,8 @@
 # 🎯 Previsão de Adesão a Campanhas Bancárias com Regressão Logística
 
 ## 💡 Objetivo
-Este projeto aplica um pipeline completo de regressão logística para prever a adesão de clientes a campanhas de marketing direto de um banco, com base no conjunto de dados `bank.csv`. O foco está na análise estatística, transformação de variáveis, modelagem preditiva e avaliação de desempenho.
+Este projeto aplica um pipeline completo de regressão logística para prever a adesão de clientes a campanhas de marketing direto de um banco, baseado no conjunto de dados bank.csv da UCI Machine Learning Repository. O trabalho abrange análise estatística detalhada, transformação de variáveis, construção e avaliação de modelos preditivos, com ênfase na interpretação dos resultados.
+
 
 ## 📊 Técnicas Aplicadas
 - Análise exploratória de dados (EDA)  
@@ -15,7 +16,7 @@ Este projeto aplica um pipeline completo de regressão logística para prever a 
   - KS Statistic
 
 ## 📁 Estrutura
-- `scripts/`: código R completo com comentários (`regressao_logistica_bank.R`)  
+- `scripts/`: código R completo com comentários (Analise_padrao_regressao_Logistica.r)  
 - `data/`: instrução de acesso ao dataset público `bank.csv` (UCI)  
 - `outputs/`: gráficos das curvas ROC, Lift, análise da variável resposta, etc.
 
